@@ -1,0 +1,14 @@
+选题人:陈满/U201412327/生医1401
+课题名称:通过USB的相机自动控制软件设计-NikonD5600为例
+课题来源:横向课题
+目的要求:1、对相机的功能有一定的了解；2、具有一定的软件开发能力，主要是C++编程能力。
+主要内容:1、学习掌握nikon 相机的SDK；2、开发相机自动拍照、Live View，参数修改等主要功能的软件。
+预期目标:1、开发的软件能通过USB自动控制相机的常用操作。
+参考资料:
+			1. http://www.doc88.com/p-9089618005938.html (尼康D5600参考书)
+			2. http://www.nikon.com.cn/sc_CN?cid=1308_ppc_baidu_04534 (尼康中国官网)
+			
+备注:侯文广老师(恩明楼701)	徐泽楷学长(恩明楼502)
+进度跟进:https://github.com/MeterChenMan/Nikon_RaspberryPi (github空间 账号:1055916641@qq.com 密码:chenman666)
+说来惭愧 第二天就建好的github 已经Latest commit 72fd8e5  22 days ago
+

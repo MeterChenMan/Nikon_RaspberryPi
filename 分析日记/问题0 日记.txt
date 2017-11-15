@@ -1,0 +1,30 @@
+决定每天出2小时,每周出完整一天预习毕设课题
+
+10/24	搭了git 写了一点梳理文字
+10/25	win10上比较合适 vs2015 下载好了摸索一下 
+		对.dll反编译有点兴趣 Reflector (\S-SDKD5600-002BF-ALLIN\Module\Win\Binary Files\x86\NkdPTP.dll)
+		(MD3文件是一种在queke3中使用的模型数据文件，MD3模型动画，是经典的关键帧动画?)应该不是
+		不清楚md3文件的使用方法,如果是一个程序或者仅仅对Windows有用的,估计要有移植,或者直接树莓派上移植Windows(这个并不好)
+
+		[Windows]
+		Documents
+		  MAID3(E).pdf : Basic interface specification//基础界面说明书
+		  MAID3Type0016(E).pdf : Extended interface specification used //扩充上述
+																  by Type0016 Module
+		  Usage of Type0016 Module(E).pdf : Notes for using Type0016 Module//Type0016的使用方法
+		  Type0016 Sample Guide(E).pdf : The usage of a sample program//使用的一个简单例子
+
+		Binary Files
+		  Type0016.md3 : Type0016 Module for Win//for win
+		  NkdPTP.dll : Driver for PTP mode used by Win
+
+		Header Files
+		  Maid3.h : Basic header file of MAID interface
+		  Maid3d1.h : Extended header file for Type0016 Module
+		  NkTypes.h : Definitions of the types used in this program.
+		  NkEndian.h : Definitions of the types used in this program.
+		  Nkstdint.h : Definitions of the types used in this program.
+
+		Sample Program
+		  Type0016CtrlSample(Win) : Project for Microsoft Visual Studio 2013
+			
