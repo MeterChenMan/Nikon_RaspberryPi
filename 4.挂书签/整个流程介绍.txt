@@ -1,0 +1,13 @@
+利用FreePic2Pdf的取书签和挂书签功能
+
+把书签从
+2	Outline	6
+2.5	Recording Destination	7
+2.5.1	Access to the Card	8
+
+变成(注意上面的间隔有'\0' 下面的空格是同一字符串)
+2 Outline	6		
+	2.5 Recording Destination	7	
+		2.5.1 Access to the Card	8
+		
+用到excel & 和 排序的功能

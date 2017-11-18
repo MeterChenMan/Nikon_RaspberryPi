@@ -1,0 +1,125 @@
+Table of Contents	2
+1	Introduction	5
+1.1	Application	5
+2	Outline	6
+2.1	PC Mode	6
+2.2	PC Connection Mode and Camera Operations	6
+2.3	Camera Mode and Host Mode	6
+2.4	Application Mode	7
+2.5	Recording Destination	7
+2.5.1	Access to the Card	8
+2.5.2	Access to the SDRAM	8
+2.6	Sending the Event	9
+2.7	Shooting Operation and Image Data Acquisition in the PC Connection Mode	9
+2.7.1	Command Sequence (Recording in the Card)	9
+2.7.2	Command Sequence (Recording in the SDRAM)	10
+2.7.3	Command Sequence (Recording by the Shutter-Release Button of the Camera)	10
+2.8	Live View Image and Data Acquisition in the PC Connection Mode	12
+2.8.1	Command Sequence	12
+2.8.2	Command Sequence (Movie Recording)	12
+2.8.3	Command Sequence (Bulb Shooting)	13
+2.9	Reacquisition of the Image Data	13
+2.10	Operation with the Empty Battery	13
+3	Device Requests	14
+3.1	Standard Device Requests	14
+3.2	Class-Specific Requests	15
+3.2.1	Cancel Request	15
+3.2.2	DeviceReset Request	15
+3.2.3	GetDeviceStatus Request	15
+4	Descriptors	16
+4.1	Standard Descriptors	16
+4.1.1	Device Descriptor	16
+4.1.2	Device_Qualifier Descriptor	17
+4.1.3	Configuration Descriptor	17
+4.1.4	Other_Speed_Configuration Descriptor	17
+4.1.5	Interface Descriptor	18
+4.1.6	Endpoint Descriptor	18
+4.1.7	String Descriptor	20
+4.2	Class-Specific Descriptor	21
+5	Protocol	22
+5.1	Generic Container Structure	22
+5.2	Asynchronous Event Interrupt Data Format	23
+5.3	Phases	23
+5.3.1	Command Phase	23
+5.3.2	Data Phase	24
+5.3.3	Response Phase	24
+5.4	Error Handling	25
+5.4.1	Command Block Reception Failure	25
+5.4.2	Command Block Invalidity	25
+5.4.3	Command Execution Error	25
+6	Code	26
+6.1	ObjectFormatCode	26
+6.1.1	Association Type	27
+6.2	Operation Code	28
+6.2.1	Standard	30
+6.2.2	Vendor	54
+6.3	Response Code	103
+6.3.1	Standard	104
+6.3.2	Vendor	109
+6.4	Event Code	113
+6.4.1	Standard	114
+6.4.2	Vendor	117
+6.5	DevicePropCode	118
+6.5.1	Standard	121
+6.5.2	Vendor (Shooting Menu)	144
+6.5.3	Vendor (Custom Menu)	169
+6.5.4	Vendor (Setup Menu)	176
+6.5.5	Vendor (Power Supply)	181
+6.5.6	Vendor (Camera Information)	182
+6.5.7	Vendor (Bracketing)	204
+6.5.8	Vendor (Internal Flash)	211
+6.5.9	Vendor (External Flash)	214
+6.5.10	Vendor (Lens)	218
+6.5.11	Vendor (Live View)	223
+6.5.12	Vendor (Picture Control)	227
+6.5.13	Vendor (Application Mode)	229
+6.5.14	Vendor (MTP)	230
+6.6	ObjectPropCode	231
+6.6.1	Object Information	232
+6.6.2	Thumbnail	238
+6.6.3	Image Information	241
+6.6.4	Movie Information	245
+7	Data Type	249
+7.1	DataTypeCode	249
+7.2	Character String Format	249
+7.3	Date Format	250
+7.4	Picture Control Format	251
+7.4.1	Color (Version 1)	251
+7.4.2	Monochrome (Version 1)	252
+7.4.3	Color (Version 2)	253
+7.4.4	Monochrome (Version 2)	254
+7.4.5	Setting Value for Each Step	255
+8	ObjectHandle	257
+8.1	ObjectHandle of the Object Recorded in the Card	257
+8.2	ObjectHandle of the Object Recorded in the SDRAM	257
+8.3	Addition of the ObjectHandle	257
+9	Data Set	258
+9.1	DeviceInfo Data Set	258
+9.2	StorageInfo Data Set	263
+9.3	ObjectInfo Data Set	264
+9.3.1	Directory/Virtual Association Data Set	265
+9.3.2	Image File Data Set	266
+9.3.3	Script File Data Set	267
+9.3.4	DPOF File Data Set	268
+9.3.5	Movie File Data Set	269
+9.4	DevicePropDesc Data Set	270
+9.5	ObjectPropDesc Data Set	271
+9.6	Property Description Data Set	272
+9.6.1	Range Form	272
+9.6.2	Enumeration Form	272
+9.6.3	Time Form	272
+9.6.4	Fixed-Length Array Form	273
+9.6.5	Regular Expression Form	273
+9.6.6	Byte String Form	273
+9.6.7	LongString Form	273
+10	Data Format	274
+10.1	LUT Format	274
+10.2	ASCII Codes	275
+11	Appendices	276
+11.1	Properties Affected by Mounting the CPU Lens	276
+11.2	Properties Affected by Mounting the External Flash	276
+11.3	Properties Affected by the Shooting Mode	277
+11.4	Properties Affected by the Setting of Auto Bracketing	277
+11.5	Properties Affected by the Location Setting	277
+11.6	White Balance Fine Tuning Coordinates	279
+11.7	External Flash Types	280
